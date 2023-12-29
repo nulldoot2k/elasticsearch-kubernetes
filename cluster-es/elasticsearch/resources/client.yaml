@@ -55,7 +55,7 @@ spec:
             - name: node.name
               value: '${HOSTNAME}.$(APP)-$(ROLE)'
             - name: node.roles
-              value: master,voting_only
+              value: remote_cluster_client
           livenessProbe:
             exec:
               command:

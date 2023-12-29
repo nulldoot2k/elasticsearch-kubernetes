@@ -54,7 +54,7 @@ spec:
             - name: node.name
               value: '${HOSTNAME}.$(APP)-$(ROLE)'
             - name: node.roles
-              value: data,master,voting_only
+              value: data
           livenessProbe:
             exec:
               command:

@@ -32,7 +32,7 @@ spec:
           - name: ELASTICSEARCH_USERNAME
             value: kibana_system
           - name: ELASTICSEARCH_PASSWORD
-            value: wMgDcYbjmUuQGgTDSpzf
+            value: nWztYKTnV3qsCDekei7I
           - name: SERVER_PUBLICBASEURL
             value: http://0.0.0.0:5601
           - name: XPACK_MONITORING_ENABLED

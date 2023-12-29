@@ -52,16 +52,16 @@ data:
     cloud.auth: ${ELASTIC_CLOUD_AUTH}
 
     output.elasticsearch:
-      hosts: ["${ELASTICSEARCH_HOST:elasticsearch}:${ELASTICSEARCH_PORT:9200}"]
+      hosts: ["${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}"]
       username: ${ELASTICSEARCH_USERNAME}
       password: ${ELASTICSEARCH_PASSWORD}
 
     setup.kibana:
-      # host: "${KIBANA_HOST:kibana}:${KIBANA_PORT:5601}"
       host: "${KIBANA_HOST}:${KIBANA_PORT}"
-      username: ${KIBANA_USERNAME}
-      password: ${KIBANA_PASSWORD}
+      # username: ${KIBANA_USERNAME}
+      # password: ${KIBANA_PASSWORD}
     setup.dashboards.enabled: true
+    setup.ilm.enabled: true
 ---
 apiVersion: v1
 kind: ConfigMap

@@ -55,7 +55,7 @@ spec:
             - name: node.name
               value: '${HOSTNAME}.$(APP)-$(ROLE)'
             - name: node.roles
-              value: master,voting_only
+              value: ingest
           livenessProbe:
             exec:
               command:

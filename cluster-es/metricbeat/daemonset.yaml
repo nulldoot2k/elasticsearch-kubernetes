@@ -42,7 +42,7 @@ spec:
         - name: ELASTICSEARCH_USERNAME
           value: elastic
         - name: ELASTICSEARCH_PASSWORD
-          value: pyAArEnbuxIOaYaokuX3
+          value: ChYMV4YyuAPlUgptYsW9
         - name: ELASTIC_CLOUD_ID
           value:
         - name: ELASTIC_CLOUD_AUTH
@@ -54,7 +54,7 @@ spec:
         - name: KIBANA_USERNAME
           value: kibana_system
         - name: KIBANA_PASSWORD
-          value: wMgDcYbjmUuQGgTDSpzf
+          value: nWztYKTnV3qsCDekei7I
         - name: PERIOD
           value: "10s"
         - name: NODE_NAME
