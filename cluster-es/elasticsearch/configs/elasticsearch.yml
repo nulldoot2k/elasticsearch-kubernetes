@@ -33,5 +33,7 @@ discovery.seed_hosts:
 
 # TEMP DIRECTORY
 # Already defined in the environment variable
-# Monitoring
-# xpack.monitoring.collection.enabled: true
+# 
+# MONITORING
+xpack.security.enabled: true
+xpack.monitoring.collection.enabled: true

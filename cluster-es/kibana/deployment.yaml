@@ -27,7 +27,17 @@ spec:
             cpu: 500m
             memory: "1024Mi"
         env:
-          - name: ELASTICSEARCH_URL
+          - name: ELASTICSEARCH_HOSTS
             value: http://elasticsearch-client-0.elasticsearch-client:9200
+          - name: ELASTICSEARCH_USERNAME
+            value: kibana_system
+          - name: ELASTICSEARCH_PASSWORD
+            value: wMgDcYbjmUuQGgTDSpzf
+          - name: SERVER_PUBLICBASEURL
+            value: http://0.0.0.0:5601
+          - name: XPACK_MONITORING_ENABLED
+            value: "true"
+          - name: XPACK_MONITORING_COLLECTION_ENABLED
+            value: "true"
         ports:
         - containerPort: 5601
